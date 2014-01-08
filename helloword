@@ -1,3 +1,10 @@
 <?php 
-  echo "Hello Word!";
+  function helloWorld(){
+  	echo "helloWorld";
+  }
+  
+  function connectDB($host, $user, $pass){
+  	retur mssql_connect($host,$user,$pass);
+  }
+  
 ?>
